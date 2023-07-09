@@ -14,8 +14,8 @@ const Project = () => {
     {
       img: project1,
       name: "Portfolio",
-      github_link: "https://github.com",
-      live_link: "https:",
+      github_link: "https://github.com/luckylavesh/My-Portfolio",
+      live_link: "https://lavesh-portfolio.netlify.app/",
     },
     /*{
       img: project2,
