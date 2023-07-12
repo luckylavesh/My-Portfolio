@@ -1,7 +1,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/Portfolio.png";
-//import project2 from "../assets/images/project-2.jpg";
+import project2 from "../assets/images/Cinopedia.png";
 //import project3 from "../assets/images/project-3.jpg";
 //import project4 from "../assets/images/project-4.jpg";
 //import project5 from "../assets/images/project-5.png";
@@ -17,12 +17,12 @@ const Project = () => {
       github_link: "https://github.com/luckylavesh/My-Portfolio",
       live_link: "https://lavesh-portfolio.netlify.app/",
     },
-    /*{
+    {
       img: project2,
-      name: "Job search Web App",
-      github_link: "",
-      live_link: "",
-    },*/
+      name: "Cinopedia",
+      github_link: "https://github.com/luckylavesh/Cinopedia",
+      live_link: "https://cinopedia.netlify.app/",
+    },
     /*{
       img: project3,
       name: "Highking",
@@ -59,7 +59,7 @@ const Project = () => {
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 1,
+                slidesPerView: 2,
               },
             }}
             loop={true}
